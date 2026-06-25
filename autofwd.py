@@ -21,7 +21,7 @@ load_dotenv()
 
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
-SOURCE_CHANNEL = os.getenv("SOURCE_CHANNEL")
+SOURCE_CHANNEL = int(os.getenv("SOURCE_CHANNEL"))
 DEST_CHANNEL = int(os.getenv("DEST_CHANNEL"))
 
 DELAY_MIN = 5
